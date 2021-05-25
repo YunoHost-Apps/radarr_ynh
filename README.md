@@ -19,9 +19,9 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-A movie collection manager for Usenet and BitTorrent users. It monitors RSS feeds for new movies and will interface with clients and indexers to grab and sort them.
+A movie collection manager for Usenet and BitTorrent users.
 
-**Shipped version:** 3.1.1.4954~ynh1
+**Shipped version:** 3.1.1.4954~ynh2
 
 
 
