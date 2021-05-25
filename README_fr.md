@@ -13,7 +13,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Un gestionnaire de filmothèque pour utilisateurs de Usenet et BitTorrent.
 
-**Version incluse:** 3.1.1.4954~ynh2
+**Version incluse:** 3.2.0.5048~ynh1
 
 
 
