@@ -11,9 +11,9 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Vue d'ensemble
 
-Un gestionnaire de filmothèque pour utilisateurs de Usenet et BitTorrent. Il surveille des flux RSS et s'interface avec des clients et indexeurs pour télécharger et ranger les nouveaux films.
+Un gestionnaire de filmothèque pour utilisateurs de Usenet et BitTorrent.
 
-**Version incluse:** 3.1.1.4954~ynh1
+**Version incluse:** 3.2.0.5048~ynh1
 
 
 

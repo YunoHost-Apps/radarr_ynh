@@ -58,8 +58,7 @@ prepare_source () {
     echo "$destination updated"
 }
 
-architectures=("arm" "arm64" "x64")
-for architecture in "${architectures[@]}"; do
+for architecture in "${supported_architectures[@]}"; do
 	prepare_source --template="../conf/app.src.default" --destination="../conf/app.$architecture.src" --architecture="$architecture"
 done
 
