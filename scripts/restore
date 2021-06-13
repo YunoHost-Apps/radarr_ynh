@@ -77,6 +77,16 @@ chmod -R o-rwx "$final_path"
 chown -R $app:$app "$final_path"
 
 #=================================================
+# YUNOHOST MULTIMEDIA INTEGRATION
+#=================================================
+ynh_script_progression --message="Adding multimedia directories..." --weight=2
+
+# Build YunoHost multimedia directories
+ynh_multimedia_build_main_dir
+# Enable writing into these directories
+ynh_multimedia_addaccess $app
+
+#=================================================
 # SPECIFIC RESTORATION
 #=================================================
 # REINSTALL DEPENDENCIES

@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/Radarr/Radarr/releases/download/v3.2.0.5048/Radarr.master.3.2.0.5048.linux-core-x64.tar.gz
-SOURCE_SUM=bae0f6dbf2bc8f11b3aa4b87b06e8dca1c4da3fed92724d7904b822a13fc94c3
+SOURCE_URL=https://github.com/Radarr/Radarr/releases/download/v3.2.2.5080/Radarr.master.3.2.2.5080.linux-core-x64.tar.gz
+SOURCE_SUM=2300fb3c5473ea68c48d44dba6a22da2bbc5301fe170c7118471bc5d01efd223
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true

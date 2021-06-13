@@ -67,4 +67,10 @@ sed -i "s#    \"version\": \".*#    \"version\": \"${version}\~ynh1\",#" ../mani
 # TODO: Run README generator
 
 git add .
-git commit ../README.md ../README_fr.md ../manifest.json ../conf/app.*.src -m "Upgrade to v$version"
+
+message="Upgrade to v$version"
+if [ "$message" == "$(git show -s --format=%s)" ]; then
+  git commit _common.sh ../manifest.json ../conf/app.*.src --amend -m "$message"
+else
+  git commit _common.sh ../manifest.json ../conf/app.*.src -m "$message"
+fi
