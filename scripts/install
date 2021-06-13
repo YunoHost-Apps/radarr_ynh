@@ -125,6 +125,16 @@ ynh_replace_string --match_string="<UrlBase></UrlBase>" --replace_string="<UrlBa
 ynh_replace_string --match_string="<BindAddress>\*</BindAddress>" --replace_string="<BindAddress>127.0.0.1</BindAddress>" --target_file="$final_path/.data/config.xml"
 
 #=================================================
+# YUNOHOST MULTIMEDIA INTEGRATION
+#=================================================
+ynh_script_progression --message="Adding multimedia directories..." --weight=2
+
+# Build YunoHost multimedia directories
+ynh_multimedia_build_main_dir
+# Enable writing into these directories
+ynh_multimedia_addaccess $app
+
+#=================================================
 # GENERIC FINALIZATION
 #=================================================
 # SETUP LOGROTATE
