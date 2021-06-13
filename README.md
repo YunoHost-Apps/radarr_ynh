@@ -20,7 +20,6 @@ A movie collection manager for Usenet and BitTorrent users.
 **Shipped version:** 3.2.2.5080~ynh1
 
 
-
 ## Screenshots
 
 ![](./doc/screenshots/screenshot.jpg)

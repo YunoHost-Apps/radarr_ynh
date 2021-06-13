@@ -16,7 +16,6 @@ Un gestionnaire de filmothèque pour utilisateurs de Usenet et BitTorrent.
 **Version incluse :** 3.2.2.5080~ynh1
 
 
-
 ## Captures d'écran
 
 ![](./doc/screenshots/screenshot.jpg)
