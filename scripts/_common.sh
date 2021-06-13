@@ -4,7 +4,7 @@
 # COMMON VARIABLES
 #=================================================
 
-version="3.2.0.5048"
+version="3.2.2.5080"
 
 # Supported architectures
 supported_architectures=("arm" "arm64" "x64")
