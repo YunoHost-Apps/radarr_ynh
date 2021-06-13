@@ -1,47 +1,40 @@
 # Radarr pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/radarr.svg)](https://dash.yunohost.org/appci/app/radarr) ![](https://ci-apps.yunohost.org/ci/badges/radarr.status.svg)  ![](https://ci-apps.yunohost.org/ci/badges/radarr.maintain.svg)
-[![Installer radarr avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=radarr)
+[![Niveau d'intégration](https://dash.yunohost.org/integration/radarr.svg)](https://dash.yunohost.org/appci/app/radarr) ![](https://ci-apps.yunohost.org/ci/badges/radarr.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/radarr.maintain.svg)  
+[![Installer Radarr avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=radarr)
 
 *[Read this readme in english.](./README.md)*
 *[Lire ce readme en français.](./README_fr.md)*
 
-> *This package allows you to install radarr quickly and simply on a YunoHost server.
-If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/install) to learn how to install it.*
+> *Ce package vous permet d'installer Radarr rapidement et simplement sur un serveur YunoHost.
+Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
 
 ## Vue d'ensemble
 
 Un gestionnaire de filmothèque pour utilisateurs de Usenet et BitTorrent.
 
-**Version incluse:** 3.2.0.5048~ynh1
-
+**Version incluse :** 3.2.0.5048~ynh1
 
 
 
 ## Captures d'écran
 
-
-   ![](./doc/screenshots/screenshot.jpg)
-
-
-
+![](./doc/screenshots/screenshot.jpg)
 
 ## Avertissements / informations importantes
 
 * Les architectures compatibles sont `arm`, `arm64`, et `amd64`
 * Le contrôle de l'accès se fait avec le système de permissions de YunoHost.
   * L'API (`domain.tld/path/api`) est accessible aux visiteurs pour permettre le contrôle via des clients externes.
-
-
+* L'application utilise les dossiers multimédia de YunoHost, elle a donc accès en écriture aux dossiers utilisateurs et communs de `/home/yunohost.multimedia`. Après installation, vous pourrez choisir ces dossiers pour y stocker vos médias.
 
 ## Documentations et ressources
 
-* Site official de l'app : https://radarr.video
-
-* Documentation officielle de l'admin: https://wiki.servarr.com/Radarr
-* Dépôt de code officiel de l'app:  https://github.com/Radarr/Radarr
-* Documentation YunoHost pour cette app: https://yunohost.org/app_radarr
-* Signaler un bug: https://github.com/YunoHost-Apps/radarr_ynh/issues
+* Site officiel de l'app : https://radarr.video
+* Documentation officielle de l'admin : https://wiki.servarr.com/Radarr
+* Dépôt de code officiel de l'app : https://github.com/Radarr/Radarr
+* Documentation YunoHost pour cette app : https://yunohost.org/app_radarr
+* Signaler un bug : https://github.com/YunoHost-Apps/radarr_ynh/issues
 
 ## Informations pour les développeurs
 
@@ -50,8 +43,8 @@ Merci de faire vos pull request sur la [branche testing](https://github.com/Yuno
 Pour essayer la branche testing, procédez comme suit.
 ```
 sudo yunohost app install https://github.com/YunoHost-Apps/radarr_ynh/tree/testing --debug
-or
+ou
 sudo yunohost app upgrade radarr -u https://github.com/YunoHost-Apps/radarr_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications:** https://yunohost.org/packaging_apps
+**Plus d'infos sur le packaging d'applications :** https://yunohost.org/packaging_apps
