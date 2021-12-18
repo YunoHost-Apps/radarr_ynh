@@ -139,6 +139,9 @@ ynh_script_progression --message="Updating the configuration file.." --weight=1
 
 ynh_add_config --template="../conf/config.xml" --destination="$data_path/config.xml"
 
+chmod 400 "$data_path/config.xml"
+chown $app:$app "$data_path/config.xml"
+
 #=================================================
 # GENERIC FINALIZATION
 #=================================================
