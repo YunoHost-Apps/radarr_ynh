@@ -8,7 +8,6 @@
 		domain="domain.tld"
 		path="/path"
 		admin="john"
-		port="666"
 	; Checks
 		pkg_linter=1
 		setup_sub_dir=1
@@ -19,6 +18,7 @@
 		upgrade=1
 		#upgrade=1	from_commit=CommitHash
 		upgrade=1	from_commit=164fa2341225bc8ce7671d0f70cc696ed8ab58a7
+		upgrade=1	from_commit=35c7ebe40c8893321c39570608ac0deacc9407c0
 		backup_restore=1
 		multi_instance=1
 		port_already_use=0
@@ -29,4 +29,7 @@ Notification=none
 ;;; Upgrade options
 	; commit=164fa2341225bc8ce7671d0f70cc696ed8ab58a7
 		name=2021-06-03 v3.2.0.5048
-		manifest_arg=domain=DOMAIN&path=PATH&admin=USER&port=666&
+		manifest_arg=domain=DOMAIN&path=PATH&admin=USER&
+	; commit=35c7ebe40c8893321c39570608ac0deacc9407c0
+		name=2021-06-13 3.2.2.5080~ynh1
+		manifest_arg=domain=DOMAIN&path=PATH&admin=USER&
