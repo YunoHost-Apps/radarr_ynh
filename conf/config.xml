@@ -7,8 +7,8 @@
   <UrlBase>__PATH__</UrlBase>
   <ApiKey>__API_KEY__</ApiKey>
   <AuthenticationMethod>None</AuthenticationMethod>
-  <UpdateMechanism>BuiltIn</UpdateMechanism>
-  <Branch>master</Branch>
+  <UpdateMechanism>External</UpdateMechanism>
+  <Branch>develop</Branch>
   <SslPort>__PORT__</SslPort>
   <LaunchBrowser>False</LaunchBrowser>
   <SslCertPassword></SslCertPassword>
