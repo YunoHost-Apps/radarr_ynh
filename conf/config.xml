@@ -1,0 +1,16 @@
+<Config>
+  <LogLevel>info</LogLevel>
+  <BindAddress>127.0.0.1</BindAddress>
+  <EnableSsl>False</EnableSsl>
+  <SslCertPath></SslCertPath>
+  <Port>__PORT__</Port>
+  <UrlBase>__PATH__</UrlBase>
+  <ApiKey>__API_KEY__</ApiKey>
+  <AuthenticationMethod>None</AuthenticationMethod>
+  <UpdateMechanism>External</UpdateMechanism>
+  <Branch>develop</Branch>
+  <SslPort>__PORT__</SslPort>
+  <LaunchBrowser>False</LaunchBrowser>
+  <SslCertPassword></SslCertPassword>
+  <AnalyticsEnabled>False</AnalyticsEnabled>
+</Config>
