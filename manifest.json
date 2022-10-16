@@ -14,7 +14,7 @@
         "admindoc": "https://wiki.servarr.com/Radarr",
         "code": "https://github.com/Radarr/Radarr"
     },
-    "license": "MIT",
+    "license": "GPL-3.0-only",
     "maintainer": {
         "name": "tituspijean",
         "email": "tituspijean@outlook.com"
