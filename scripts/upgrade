@@ -58,16 +58,6 @@ ynh_script_progression --message="Upgrading systemd configuration..." --weight=1
 ynh_add_systemd_config
 
 #=================================================
-# UPDATE A CONFIG FILE
-#=================================================
-ynh_script_progression --message="Updating the configuration file.." --weight=1
-
-ynh_add_config --template="../conf/config.xml" --destination="$data_dir/config.xml"
-
-chmod 400 "$data_dir/config.xml"
-chown $app:$app "$data_dir/config.xml"
-
-#=================================================
 # GENERIC FINALIZATION
 #=================================================
 # SETUP LOGROTATE
