@@ -16,7 +16,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-Gestionnaire de filmothèque pour utilisateurs de Usenet et BitTorrent
+Movie collection manager for Usenet and BitTorrent users
 
 **Version incluse :** 4.7.5.7809~ynh1
 
