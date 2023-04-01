@@ -5,23 +5,24 @@ It shall NOT be edited by hand.
 
 # Radarr pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/radarr.svg)](https://dash.yunohost.org/appci/app/radarr) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/radarr.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/radarr.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/radarr.svg)](https://dash.yunohost.org/appci/app/radarr) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/radarr.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/radarr.maintain.svg)
+
 [![Installer Radarr avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=radarr)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Radarr rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Radarr rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Gestionnaire de filmothèque pour utilisateurs de Usenet et BitTorrent
 
 **Version incluse :** 4.3.2.6857~ynh1
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Radarr](./doc/screenshots/screenshot.jpg)
+![Capture d’écran de Radarr](./doc/screenshots/screenshot.jpg)
 
 ## Avertissements / informations importantes
 
@@ -32,9 +33,9 @@ Gestionnaire de filmothèque pour utilisateurs de Usenet et BitTorrent
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://radarr.video>
-* Documentation officielle de l'admin : <https://wiki.servarr.com/Radarr>
-* Dépôt de code officiel de l'app : <https://github.com/Radarr/Radarr>
+* Site officiel de l’app : <https://radarr.video>
+* Documentation officielle de l’admin : <https://wiki.servarr.com/Radarr>
+* Dépôt de code officiel de l’app : <https://github.com/Radarr/Radarr>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_radarr>
 * Signaler un bug : <https://github.com/YunoHost-Apps/radarr_ynh/issues>
 
@@ -50,4 +51,4 @@ ou
 sudo yunohost app upgrade radarr -u https://github.com/YunoHost-Apps/radarr_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
