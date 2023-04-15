@@ -6,7 +6,7 @@
         "en": "Movie collection manager for Usenet and BitTorrent users",
         "fr": "Gestionnaire de filmothèque pour utilisateurs de Usenet et BitTorrent"
     },
-    "version": "4.3.2.6857~ynh1",
+    "version": "4.4.4.7068~ynh1",
     "url": "https://radarr.video",
     "upstream": {
         "license": "GPL-3.0-only",
