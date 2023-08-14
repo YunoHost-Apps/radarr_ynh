@@ -18,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 Gestionnaire de filmothèque pour utilisateurs de Usenet et BitTorrent
 
-**Version incluse :** 4.5.2.7388~ynh1
+**Version incluse :** 4.7.5.7809~ynh1
 
 ## Captures d’écran
 
