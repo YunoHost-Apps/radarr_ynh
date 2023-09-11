@@ -1,5 +1,0 @@
-SOURCE_URL=https://github.com/Radarr/Radarr/releases/download/v4.7.5.7809/Radarr.master.4.7.5.7809.linux-core-x64.tar.gz
-SOURCE_SUM=634f262eafe5a56ab071f7cf7332fe9ed4bb0962e63a0cfd8ab7db84829b2f90
-SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=tar.gz
-SOURCE_IN_SUBDIR=true
