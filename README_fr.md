@@ -18,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 Movie collection manager for Usenet and BitTorrent users
 
-**Version incluse :** 4.7.5.7809~ynh1
+**Version incluse :** 4.3.2.6857~ynh1
 
 ## Captures d’écran
 
