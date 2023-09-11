@@ -6,11 +6,13 @@
   <Port>__PORT__</Port>
   <UrlBase>__PATH__</UrlBase>
   <ApiKey>__API_KEY__</ApiKey>
-  <AuthenticationMethod>None</AuthenticationMethod>
-  <UpdateMechanism>External</UpdateMechanism>
+  <AuthenticationMethod>Forms</AuthenticationMethod>
+  <UpdateMechanism>BuiltIn</UpdateMechanism>
   <Branch>develop</Branch>
   <SslPort>__PORT__</SslPort>
   <LaunchBrowser>False</LaunchBrowser>
   <SslCertPassword></SslCertPassword>
   <AnalyticsEnabled>False</AnalyticsEnabled>
+  <InstanceName>Radarr</InstanceName>
+  <AuthenticationRequired>DisabledForLocalAddresses</AuthenticationRequired>
 </Config>
