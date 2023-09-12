@@ -7,7 +7,7 @@
   <UrlBase>__PATH__</UrlBase>
   <ApiKey>__API_KEY__</ApiKey>
   <AuthenticationMethod>None</AuthenticationMethod>
-  <UpdateMechanism>External</UpdateMechanism>
+  <UpdateMechanism>BuiltIn</UpdateMechanism>
   <Branch>develop</Branch>
   <SslPort>__PORT__</SslPort>
   <LaunchBrowser>False</LaunchBrowser>
