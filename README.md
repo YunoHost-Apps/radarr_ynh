@@ -6,6 +6,7 @@ It shall NOT be edited by hand.
 # Radarr for YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/radarr.svg)](https://dash.yunohost.org/appci/app/radarr) ![Working status](https://ci-apps.yunohost.org/ci/badges/radarr.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/radarr.maintain.svg)
+
 [![Install Radarr with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=radarr)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -22,13 +23,6 @@ Movie collection manager for Usenet and BitTorrent users
 ## Screenshots
 
 ![Screenshot of Radarr](./doc/screenshots/screenshot.jpg)
-
-## Disclaimers / important information
-
-* Supported architectures are `arm`, `arm64`, and `amd64`
-* Access control is done with YunoHost's permissions system.
-  * API (`domain.tld/path/api`) can be accessed by visitors to allow control by remote clients.
-* The app uses YunoHost's multimedia directories, hence it has write access to users' and shared directories in `/home/yunohost.multimedia`. After installation, you can choose these directories to store your media.
 
 ## Documentation and resources
 

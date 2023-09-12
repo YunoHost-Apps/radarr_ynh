@@ -1,0 +1,75 @@
+packaging_format = 2
+
+id = "radarr"
+name = "Radarr"
+description.en = "Movie collection manager for Usenet and BitTorrent users"
+description.fr = "Gestionnaire de filmothèque pour utilisateurs de Usenet et BitTorrent"
+
+version = "4.3.2.6857~ynh1"
+
+maintainers = ["tituspijean"]
+
+[upstream]
+license = "GPL-3.0-only"
+website = "https://radarr.video"
+admindoc = "https://wiki.servarr.com/Radarr"
+code = "https://github.com/Radarr/Radarr"
+fund = "https://radarr.video/donate"
+
+[integration]
+yunohost = ">= 11.2"
+architectures = ["armhf", "arm64", "amd64", "i386"]
+multi_instance = true
+ldap = false
+sso = "not_relevant"
+disk = "300M"
+ram.build = "100M"
+ram.runtime = "100M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/radarr"
+
+    [install.init_main_permission]
+    type = "group"
+    help.en = "Logging in is disabled for Radarr on YunoHost, use this permission to manage who will have access."
+    help.fr = "La connexion est désactivée pour Radarr sur YunoHost, utilisez cette permission pour gérer qui y aura accès."
+
+[resources]
+    [resources.sources.main]
+    armhf.url = "https://github.com/Radarr/Radarr/releases/download/v4.7.5.7809/Radarr.master.4.7.5.7809.linux-core-arm.tar.gz"
+    armhf.sha256 = "00972d3d587f214c1b3a446c5db2d9ef0823edba5a311670f81d6038bb11c1be"
+    arm64.url = "https://github.com/Radarr/Radarr/releases/download/v4.7.5.7809/Radarr.master.4.7.5.7809.linux-core-arm64.tar.gz"
+    arm64.sha256 = "82cc30caaf5920e6f0adcb3a3c006170de2c685f150d01cba4fdadac09d549c9"
+    amd64.url = "https://github.com/Radarr/Radarr/releases/download/v4.7.5.7809/Radarr.master.4.7.5.7809.linux-core-x64.tar.gz"
+    amd64.sha256 = "634f262eafe5a56ab071f7cf7332fe9ed4bb0962e63a0cfd8ab7db84829b2f90"
+    i386.url = "https://github.com/Radarr/Radarr/releases/download/v4.7.5.7809/Radarr.master.4.7.5.7809.linux-core-x86.tar.gz"
+    i386.sha256 = "e5ae54b2fdd2e310bdd720ce8b6e0bd9ebe4c9500a4af72c092bf8da052108e1"
+
+    autoupdate.strategy = "latest_github_release"
+    autoupdate.asset.armhf = ".*linux-core-arm.tar.gz"
+    autoupdate.asset.arm64 = ".*linux-core-arm64.tar.gz"
+    autoupdate.asset.amd64 = ".*linux-core-x64.tar.gz"
+    autoupdate.asset.i386 = ".*linux-core-x86.tar.gz"
+
+    [resources.ports]
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.data_dir]
+
+    [resources.permissions]
+    main.url = "/"
+    api.url = "/api"
+    api.allowed = "visitors"
+    api.show_tile = false
+    api.protected = true
+
+    [resources.apt]
+    packages = "curl mediainfo sqlite3"

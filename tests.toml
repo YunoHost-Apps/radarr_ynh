@@ -1,0 +1,13 @@
+test_format = 1.0
+
+[default]
+
+
+    # -------------------------------
+    # Commits to test upgrade from
+    # -------------------------------
+
+    test_upgrade_from.35c7ebe4.name = "Upgrade from 3.2.2.5080~ynh1"
+    test_upgrade_from.35c7ebe4.args.domain = "sub.domain.tld"
+    test_upgrade_from.35c7ebe4.args.path = "/radarr"
+    test_upgrade_from.35c7ebe4.args.admin = "package_checker"
