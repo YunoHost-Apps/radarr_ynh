@@ -6,8 +6,8 @@
   <Port>__PORT__</Port>
   <UrlBase>__PATH__</UrlBase>
   <ApiKey>__API_KEY__</ApiKey>
-  <AuthenticationMethod>Forms</AuthenticationMethod>
-  <UpdateMechanism>BuiltIn</UpdateMechanism>
+  <AuthenticationMethod>External</AuthenticationMethod>
+  <UpdateMechanism>External</UpdateMechanism>
   <Branch>develop</Branch>
   <SslPort>__PORT__</SslPort>
   <LaunchBrowser>False</LaunchBrowser>
