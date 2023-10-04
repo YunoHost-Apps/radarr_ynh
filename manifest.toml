@@ -72,4 +72,4 @@ ram.runtime = "100M"
     api.protected = true
 
     [resources.apt]
-    packages = "curl mediainfo sqlite3"
+    packages = "curl, mediainfo, sqlite3"
