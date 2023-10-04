@@ -29,7 +29,6 @@ Movie collection manager for Usenet and BitTorrent users
 * Site officiel de l’app : <https://radarr.video>
 * Documentation officielle de l’admin : <https://wiki.servarr.com/Radarr>
 * Dépôt de code officiel de l’app : <https://github.com/Radarr/Radarr>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_radarr>
 * Signaler un bug : <https://github.com/YunoHost-Apps/radarr_ynh/issues>
 
 ## Informations pour les développeurs
