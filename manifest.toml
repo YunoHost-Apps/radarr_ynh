@@ -63,6 +63,7 @@ ram.runtime = "100M"
     [resources.install_dir]
 
     [resources.data_dir]
+    subdirs = ["logs"]
 
     [resources.permissions]
     main.url = "/"
