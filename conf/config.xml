@@ -6,7 +6,7 @@
   <Port>__PORT__</Port>
   <UrlBase>__PATH__</UrlBase>
   <ApiKey>__API_KEY__</ApiKey>
-  <AuthenticationMethod>None</AuthenticationMethod>
+  <AuthenticationMethod>External</AuthenticationMethod>
   <UpdateMechanism>BuiltIn</UpdateMechanism>
   <Branch>develop</Branch>
   <SslPort>__PORT__</SslPort>
