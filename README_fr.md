@@ -18,7 +18,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 Movie collection manager for Usenet and BitTorrent users
 
-**Version incluse :** 4.3.2.6857~ynh1
+**Version incluse :** 5.0.3.8127~ynh1
 
 ## Captures d’écran
 
@@ -29,7 +29,6 @@ Movie collection manager for Usenet and BitTorrent users
 * Site officiel de l’app : <https://radarr.video>
 * Documentation officielle de l’admin : <https://wiki.servarr.com/Radarr>
 * Dépôt de code officiel de l’app : <https://github.com/Radarr/Radarr>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_radarr>
 * Signaler un bug : <https://github.com/YunoHost-Apps/radarr_ynh/issues>
 
 ## Informations pour les développeurs
