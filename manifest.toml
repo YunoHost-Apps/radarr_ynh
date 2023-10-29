@@ -5,7 +5,7 @@ name = "Radarr"
 description.en = "Movie collection manager for Usenet and BitTorrent users"
 description.fr = "Gestionnaire de filmothèque pour utilisateurs de Usenet et BitTorrent"
 
-version = "5.0.3.8127~ynh1"
+version = "5.0.3.8127~ynh2"
 
 maintainers = ["tituspijean"]
 
