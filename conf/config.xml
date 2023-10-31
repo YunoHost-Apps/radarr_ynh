@@ -8,7 +8,7 @@
   <ApiKey>__API_KEY__</ApiKey>
   <AuthenticationMethod>External</AuthenticationMethod>
   <UpdateMechanism>BuiltIn</UpdateMechanism>
-  <Branch>develop</Branch>
+  <Branch>master</Branch>
   <SslPort>__PORT__</SslPort>
   <LaunchBrowser>False</LaunchBrowser>
   <SslCertPassword></SslCertPassword>
