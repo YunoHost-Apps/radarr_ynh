@@ -18,7 +18,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Movie collection manager for Usenet and BitTorrent users
 
-**Shipped version:** 5.0.3.8127~ynh1
+**Shipped version:** 5.0.3.8127~ynh2
 
 ## Screenshots
 
@@ -29,6 +29,7 @@ Movie collection manager for Usenet and BitTorrent users
 * Official app website: <https://radarr.video>
 * Official admin documentation: <https://wiki.servarr.com/Radarr>
 * Upstream app code repository: <https://github.com/Radarr/Radarr>
+* YunoHost Store: <https://apps.yunohost.org/app/radarr>
 * Report a bug: <https://github.com/YunoHost-Apps/radarr_ynh/issues>
 
 ## Developer info
