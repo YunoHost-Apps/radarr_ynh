@@ -1,0 +1,12 @@
+#!/bin/bash
+
+source /usr/share/yunohost/helpers
+ynh_abort_if_errors
+
+data_dir=$(ynh_app_setting_get --app=$app --key=data_dir)
+
+run__external_authentication() {
+    ynh_replace_string --match_string="<AuthenticationMethod>[[:alnum:]]*</AuthenticationMethod>" --replace_string="<AuthenticationMethod>External</AuthenticationMethod>" --target_file="$data_dir/config.xml"
+}
+
+ynh_app_config_run $1
