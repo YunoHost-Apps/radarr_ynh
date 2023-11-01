@@ -1,0 +1,12 @@
+version = "1.0"
+
+[authentication]
+
+services = ["__APP__"]
+
+    [authentication.authentication]
+
+        [authentication.authentication.external_authentication]
+        ask.en = "Set Radarr's authentication method to External and rely on YunoHost's permission system."
+        ask.fr = "Paramétrer la méthode d'authentication de Radarr sur External et utiliser le système de permissions de YunoHost."
+        type = "button"
