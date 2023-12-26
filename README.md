@@ -18,7 +18,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Movie collection manager for Usenet and BitTorrent users
 
-**Shipped version:** 5.1.3.8246~ynh1
+**Shipped version:** 5.2.6.8376~ynh1
 
 ## Screenshots
 
