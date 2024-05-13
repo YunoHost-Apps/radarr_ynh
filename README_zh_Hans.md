@@ -3,7 +3,7 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 Radarr
+# YunoHost 上的 Radarr
 
 [![集成程度](https://dash.yunohost.org/integration/radarr.svg)](https://dash.yunohost.org/appci/app/radarr) ![工作状态](https://ci-apps.yunohost.org/ci/badges/radarr.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/radarr.maintain.svg)
 
@@ -18,7 +18,7 @@
 
 Movie collection manager for Usenet and BitTorrent users
 
-**分发版本：** 5.4.6.8723~ynh1
+**分发版本：** 5.5.3.8819~ynh1
 
 ## 截图
 
