@@ -18,7 +18,7 @@
 
 Movie collection manager for Usenet and BitTorrent users
 
-**分发版本：** 5.5.3.8819~ynh1
+**分发版本：** 5.6.0.8846~ynh1
 
 ## 截图
 
