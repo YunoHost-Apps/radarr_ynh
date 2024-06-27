@@ -5,7 +5,7 @@
 
 # YunoHost 上的 Radarr
 
-[![集成程度](https://dash.yunohost.org/integration/radarr.svg)](https://dash.yunohost.org/appci/app/radarr) ![工作状态](https://ci-apps.yunohost.org/ci/badges/radarr.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/radarr.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/radarr.svg)](https://ci-apps.yunohost.org/ci/apps/radarr/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/radarr.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/radarr.maintain.svg)
 
 [![使用 YunoHost 安装 Radarr](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=radarr)
 

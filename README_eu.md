@@ -5,7 +5,7 @@ EZ editatu eskuz.
 
 # Radarr YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/radarr.svg)](https://dash.yunohost.org/appci/app/radarr) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/radarr.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/radarr.maintain.svg)
+[![Integrazio maila](https://dash.yunohost.org/integration/radarr.svg)](https://ci-apps.yunohost.org/ci/apps/radarr/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/radarr.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/radarr.maintain.svg)
 
 [![Instalatu Radarr YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=radarr)
 

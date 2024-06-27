@@ -5,7 +5,7 @@ Il NE doit PAS être modifié à la main.
 
 # Radarr pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/radarr.svg)](https://dash.yunohost.org/appci/app/radarr) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/radarr.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/radarr.maintain.svg)
+[![Niveau d’intégration](https://dash.yunohost.org/integration/radarr.svg)](https://ci-apps.yunohost.org/ci/apps/radarr/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/radarr.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/radarr.maintain.svg)
 
 [![Installer Radarr avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=radarr)
 
