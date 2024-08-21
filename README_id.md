@@ -18,7 +18,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 Movie collection manager for Usenet and BitTorrent users
 
-**Versi terkirim:** 5.8.3.8933~ynh1
+**Versi terkirim:** 5.9.1.9070~ynh1
 
 ## Tangkapan Layar
 
@@ -28,7 +28,7 @@ Movie collection manager for Usenet and BitTorrent users
 
 - Website aplikasi resmi: <https://radarr.video>
 - Dokumentasi admin resmi: <https://wiki.servarr.com/Radarr>
-- Repositori kode aplikasi hulu: <https://github.com/Radarr/Radarr>
+- Depot kode aplikasi hulu: <https://github.com/Radarr/Radarr>
 - Gudang YunoHost: <https://apps.yunohost.org/app/radarr>
 - Laporkan bug: <https://github.com/YunoHost-Apps/radarr_ynh/issues>
 
