@@ -1,58 +1,51 @@
 #!/bin/bash
 
-#=================================================
-# GENERIC START
-#=================================================
-# IMPORT GENERIC HELPERS
-#=================================================
-
 source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
-ynh_script_progression --message="Setting up source files..." --weight=3
+ynh_script_progression "Setting up source files..."
 
 # Download, check integrity, uncompress and patch the source from app.src
-ynh_setup_source --dest_dir="$install_dir" 
+ynh_setup_source --dest_dir="$install_dir"
 
-chmod -R o-rwx "$install_dir"
-chown -R $app: "$install_dir"
-
+#REMOVEME? Assuming the install dir is setup using ynh_setup_source, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chmod -R o-rwx "$install_dir"
+#REMOVEME? Assuming the install dir is setup using ynh_setup_source, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chown -R $app: "$install_dir"
 #=================================================
 # NGINX CONFIGURATION
 #=================================================
-ynh_script_progression --message="Configuring NGINX web server..." --weight=1
+ynh_script_progression "Configuring NGINX web server..."
 
 # Create a dedicated NGINX config
-ynh_add_nginx_config
+ynh_config_add_nginx
 
 # Create a dedicated systemd config
-ynh_add_systemd_config
+ynh_config_add_systemd
 
-ynh_use_logrotate
-ynh_use_logrotate --logfile="$data_dir/logs"
+ynh_config_add_logrotate
+ynh_config_add_logrotate "$data_dir/logs"
 
 yunohost service add $app --description="Radarr daemon" --log="$data_dir/logs/radarr.txt"
 
 #=================================================
 # ADD A CONFIGURATION
 #=================================================
-ynh_script_progression --message="Configuring Radarr..." --weight=2
+ynh_script_progression "Configuring Radarr..."
 
 api_key=$(ynh_string_random --length=32)
-ynh_app_setting_set --app=$app --key=api_key --value=$api_key
+ynh_app_setting_set --key=api_key --value=$api_key
 
-ynh_add_config --template="../conf/config.xml" --destination="$data_dir/config.xml"
+ynh_config_add --template="config.xml" --destination="$data_dir/config.xml"
 
-chmod 400 "$data_dir/config.xml"
-chown $app:$app "$data_dir/config.xml"
+#REMOVEME? Assuming the file is setup using ynh_config_add, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chmod 400 "$data_dir/config.xml"
+#REMOVEME? Assuming the file is setup using ynh_config_add, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chown $app:$app "$data_dir/config.xml"
 
 #=================================================
 # YUNOHOST MULTIMEDIA INTEGRATION
 #=================================================
-ynh_script_progression --message="Adding multimedia directories..." --weight=2
+ynh_script_progression "Adding multimedia directories..."
 
 # Build YunoHost multimedia directories
 ynh_multimedia_build_main_dir
@@ -62,13 +55,13 @@ ynh_multimedia_addaccess $app
 #=================================================
 # START SYSTEMD SERVICE
 #=================================================
-ynh_script_progression --message="Starting a systemd service..." --weight=2
+ynh_script_progression "Starting $app's systemd service..."
 
 # Start a systemd service
-ynh_systemd_action --service_name=$app --action="start" --log_path="systemd" --line_match="Application started" --timeout=30
+ynh_systemctl --service=$app --action="start" --log_path="systemd" --wait_until="Application started" --timeout=30
 
 #=================================================
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Installation of $app completed" --last
+ynh_script_progression "Installation of $app completed"
