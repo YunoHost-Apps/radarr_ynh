@@ -18,7 +18,7 @@ NON debe editarse manualmente.
 
 Movie collection manager for Usenet and BitTorrent users
 
-**Versión proporcionada:** 5.9.1.9070~ynh1
+**Versión proporcionada:** 5.10.4.9218~ynh1
 
 ## Capturas de pantalla
 
