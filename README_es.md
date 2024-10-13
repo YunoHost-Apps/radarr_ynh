@@ -18,7 +18,7 @@ No se debe editar a mano.
 
 Movie collection manager for Usenet and BitTorrent users
 
-**Versión actual:** 5.9.1.9070~ynh1
+**Versión actual:** 5.12.2.9335~ynh1
 
 ## Capturas
 
@@ -34,7 +34,7 @@ Movie collection manager for Usenet and BitTorrent users
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/radarr_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/radarr_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
