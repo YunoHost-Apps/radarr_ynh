@@ -18,7 +18,7 @@ EZ editatu eskuz.
 
 Movie collection manager for Usenet and BitTorrent users
 
-**Paketatutako bertsioa:** 5.9.1.9070~ynh1
+**Paketatutako bertsioa:** 5.15.1.9463~ynh1
 
 ## Pantaila-argazkiak
 
