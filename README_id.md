@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Radarr untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/radarr.svg)](https://ci-apps.yunohost.org/ci/apps/radarr/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/radarr.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/radarr.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/radarr)](https://ci-apps.yunohost.org/ci/apps/radarr/)
+![Status kerja](https://apps.yunohost.org/badge/state/radarr)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/radarr)
 
 [![Pasang Radarr dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=radarr)
 
@@ -18,7 +20,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 Movie collection manager for Usenet and BitTorrent users
 
-**Versi terkirim:** 5.9.1.9070~ynh1
+**Versi terkirim:** 5.16.3.9541~ynh1
 
 ## Tangkapan Layar
 

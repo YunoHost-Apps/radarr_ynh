@@ -5,7 +5,9 @@ It shall NOT be edited by hand.
 
 # Radarr for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/radarr.svg)](https://ci-apps.yunohost.org/ci/apps/radarr/) ![Working status](https://ci-apps.yunohost.org/ci/badges/radarr.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/radarr.maintain.svg)
+[![Integration level](https://apps.yunohost.org/badge/integration/radarr)](https://ci-apps.yunohost.org/ci/apps/radarr/)
+![Working status](https://apps.yunohost.org/badge/state/radarr)
+![Maintenance status](https://apps.yunohost.org/badge/maintained/radarr)
 
 [![Install Radarr with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=radarr)
 
@@ -18,7 +20,7 @@ It shall NOT be edited by hand.
 
 Movie collection manager for Usenet and BitTorrent users
 
-**Shipped version:** 5.9.1.9070~ynh1
+**Shipped version:** 5.16.3.9541~ynh1
 
 ## Screenshots
 
