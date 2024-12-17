@@ -5,7 +5,9 @@ No se debe editar a mano.
 
 # Radarr para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/radarr.svg)](https://ci-apps.yunohost.org/ci/apps/radarr/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/radarr.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/radarr.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/radarr)](https://ci-apps.yunohost.org/ci/apps/radarr/)
+![Estado funcional](https://apps.yunohost.org/badge/state/radarr)
+![Estado En Mantención](https://apps.yunohost.org/badge/maintained/radarr)
 
 [![Instalar Radarr con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=radarr)
 
@@ -18,7 +20,7 @@ No se debe editar a mano.
 
 Movie collection manager for Usenet and BitTorrent users
 
-**Versión actual:** 5.9.1.9070~ynh1
+**Versión actual:** 5.16.3.9541~ynh1
 
 ## Capturas
 
@@ -34,7 +36,7 @@ Movie collection manager for Usenet and BitTorrent users
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/radarr_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/radarr_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
