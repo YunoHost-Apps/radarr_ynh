@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Radarr YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/radarr.svg)](https://ci-apps.yunohost.org/ci/apps/radarr/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/radarr.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/radarr.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/radarr)](https://ci-apps.yunohost.org/ci/apps/radarr/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/radarr)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/radarr)
 
 [![Instalatu Radarr YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=radarr)
 
@@ -18,7 +20,7 @@ EZ editatu eskuz.
 
 Movie collection manager for Usenet and BitTorrent users
 
-**Paketatutako bertsioa:** 5.9.1.9070~ynh1
+**Paketatutako bertsioa:** 5.16.3.9541~ynh1
 
 ## Pantaila-argazkiak
 
