@@ -20,7 +20,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 Movie collection manager for Usenet and BitTorrent users
 
-**Versi terkirim:** 5.16.3.9541~ynh1
+**Versi terkirim:** 5.17.2.9580~ynh1
 
 ## Tangkapan Layar
 

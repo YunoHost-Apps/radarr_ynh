@@ -20,7 +20,7 @@ It shall NOT be edited by hand.
 
 Movie collection manager for Usenet and BitTorrent users
 
-**Shipped version:** 5.16.3.9541~ynh1
+**Shipped version:** 5.17.2.9580~ynh1
 
 ## Screenshots
 
