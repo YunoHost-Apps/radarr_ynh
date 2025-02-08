@@ -5,7 +5,7 @@ name = "Radarr"
 description.en = "Movie collection manager for Usenet and BitTorrent users"
 description.fr = "Gestionnaire de filmothèque pour utilisateurs de Usenet et BitTorrent"
 
-version = "5.17.2.9580~ynh1"
+version = "5.18.4.9674~ynh1"
 
 maintainers = ["tituspijean"]
 
@@ -41,14 +41,14 @@ ram.runtime = "100M"
 
 [resources]
     [resources.sources.main]
-    armhf.url = "https://github.com/Radarr/Radarr/releases/download/v5.17.2.9580/Radarr.master.5.17.2.9580.linux-core-arm.tar.gz"
-    armhf.sha256 = "20de4998b83c5c1e5de7e94a51205996935b81125de1375c1be07226bd4e0770"
-    arm64.url = "https://github.com/Radarr/Radarr/releases/download/v5.17.2.9580/Radarr.master.5.17.2.9580.linux-core-arm64.tar.gz"
-    arm64.sha256 = "ef42160aee3c8efa131e8f10ffbf27fd90e6845c26f4f64e617525ff5ee29ec8"
-    amd64.url = "https://github.com/Radarr/Radarr/releases/download/v5.17.2.9580/Radarr.master.5.17.2.9580.linux-core-x64.tar.gz"
-    amd64.sha256 = "d3c8d085a3cf4b8cc442e276a2f3ff66c3571b5749be26b85fa46b5f2c0735aa"
-    i386.url = "https://github.com/Radarr/Radarr/releases/download/v5.17.2.9580/Radarr.master.5.17.2.9580.linux-core-x86.tar.gz"
-    i386.sha256 = "d5c12e469c002231998847e10e5c084a527a18708df07ad1c3576f2ef135859b"
+    armhf.url = "https://github.com/Radarr/Radarr/releases/download/v5.18.4.9674/Radarr.master.5.18.4.9674.linux-core-arm.tar.gz"
+    armhf.sha256 = "d9e90af0fafd054ddc75025c5f329b64ba0253c017ac4d1f8747b7dd7f2d6287"
+    arm64.url = "https://github.com/Radarr/Radarr/releases/download/v5.18.4.9674/Radarr.master.5.18.4.9674.linux-core-arm64.tar.gz"
+    arm64.sha256 = "71640e75db4042a32fbd647cb853acff0d2256709283cfe736d62ea14704a807"
+    amd64.url = "https://github.com/Radarr/Radarr/releases/download/v5.18.4.9674/Radarr.master.5.18.4.9674.linux-core-x64.tar.gz"
+    amd64.sha256 = "0f4369f49cfb138ff57675a415d1d0206b6192509573ac9abf600013da4572ed"
+    i386.url = "https://github.com/Radarr/Radarr/releases/download/v5.18.4.9674/Radarr.master.5.18.4.9674.linux-core-x86.tar.gz"
+    i386.sha256 = "502f55cc9f8ccd189ae64ebe70063a02de24f606618e957b55d84b76578fe22d"
 
     autoupdate.strategy = "latest_github_release"
     autoupdate.asset.armhf = ".*linux-core-arm.tar.gz"
