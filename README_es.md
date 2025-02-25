@@ -20,7 +20,7 @@ No se debe editar a mano.
 
 Movie collection manager for Usenet and BitTorrent users
 
-**Versión actual:** 5.18.4.9674~ynh1
+**Versión actual:** 5.19.3.9730~ynh1
 
 ## Capturas
 
