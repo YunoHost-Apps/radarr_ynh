@@ -20,7 +20,7 @@
 
 Movie collection manager for Usenet and BitTorrent users
 
-**Поставляемая версия:** 5.20.2.9777~ynh1
+**Поставляемая версия:** 5.21.1.9799~ynh1
 
 ## Снимки экрана
 
