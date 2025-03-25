@@ -20,7 +20,7 @@ Hij mag NIET handmatig aangepast worden.
 
 Movie collection manager for Usenet and BitTorrent users
 
-**Geleverde versie:** 5.20.2.9777~ynh1
+**Geleverde versie:** 5.21.1.9799~ynh1
 
 ## Schermafdrukken
 

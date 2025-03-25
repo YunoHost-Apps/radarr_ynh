@@ -20,7 +20,7 @@ EZ editatu eskuz.
 
 Movie collection manager for Usenet and BitTorrent users
 
-**Paketatutako bertsioa:** 5.20.2.9777~ynh1
+**Paketatutako bertsioa:** 5.21.1.9799~ynh1
 
 ## Pantaila-argazkiak
 
@@ -38,7 +38,7 @@ Movie collection manager for Usenet and BitTorrent users
 
 Bidali `pull request`a [`testing` abarrera](https://github.com/YunoHost-Apps/radarr_ynh/tree/testing).
 
-`testing` abarra probatzeko, ondorengoa egin:
+`testing` abarra probatzeko, honakoa egin:
 
 ```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/radarr_ynh/tree/testing --debug
