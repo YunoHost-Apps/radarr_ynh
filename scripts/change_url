@@ -1,53 +1,37 @@
 #!/bin/bash
 
-#=================================================
-# GENERIC STARTING
-#=================================================
-# IMPORT GENERIC HELPERS
-#=================================================
-
 source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
-# STANDARD MODIFICATIONS
-#=================================================
 # STOP SYSTEMD SERVICE
 #=================================================
-ynh_script_progression --message="Stopping a systemd service..." --weight=1
+ynh_script_progression "Stopping $app's systemd service..."
 
-ynh_systemd_action --service_name=$app --action="stop" --log_path="systemd"
+ynh_systemctl --service=$app --action="stop" --log_path="systemd"
 
 #=================================================
 # MODIFY URL IN NGINX CONF
 #=================================================
-ynh_script_progression --message="Updating NGINX web server configuration..." --weight=1
+ynh_script_progression "Updating NGINX web server configuration..."
 
-ynh_change_url_nginx_config
+ynh_config_change_url_nginx
 
-#=================================================
-# SPECIFIC MODIFICATIONS
 #=================================================
 # UPDATE CONFIGURATION FILE
 #=================================================
 
-ynh_exec_warn_less 'ynh_add_config --template="../conf/config.xml" --destination="$data_dir/config.xml"'
+ynh_config_add --template="config.xml" --destination="$data_dir/config.xml"
 
-chmod 750 "$data_dir/config.xml"
-chmod o-rwx "$data_dir/config.xml"
-chown $app "$data_dir/config.xml"
-
-#=================================================
-# GENERIC FINALISATION
 #=================================================
 # START SYSTEMD SERVICE
 #=================================================
-ynh_script_progression --message="Starting a systemd service..." --weight=2
+ynh_script_progression "Starting $app's systemd service..."
 
-ynh_systemd_action --service_name=$app --action="start" --log_path="systemd" --line_match="Application started" --timeout=30
+ynh_systemctl --service=$app --action="start" --log_path="systemd" --wait_until="Application started" --timeout=30
 
 #=================================================
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Change of URL completed for $app" --last
+ynh_script_progression "Change of URL completed for $app"
