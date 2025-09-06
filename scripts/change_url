@@ -18,16 +18,10 @@ ynh_script_progression "Updating NGINX web server configuration..."
 ynh_config_change_url_nginx
 
 #=================================================
-# SPECIFIC MODIFICATIONS
-#=================================================
 # UPDATE CONFIGURATION FILE
 #=================================================
 
-ynh_hide_warnings 'ynh_config_add --template="config.xml" --destination="$data_dir/config.xml"'
-
-#REMOVEME? Assuming the file is setup using ynh_config_add, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chmod 750 "$data_dir/config.xml"
-#REMOVEME? Assuming the file is setup using ynh_config_add, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chmod o-rwx "$data_dir/config.xml"
-#REMOVEME? Assuming the file is setup using ynh_config_add, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chown $app "$data_dir/config.xml"
+ynh_config_add --template="config.xml" --destination="$data_dir/config.xml"
 
 #=================================================
 # START SYSTEMD SERVICE
