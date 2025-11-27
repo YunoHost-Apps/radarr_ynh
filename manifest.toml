@@ -21,7 +21,7 @@ fund = "https://radarr.video/donate"
 [integration]
 yunohost = ">= 12.1.17"
 helpers_version = "2.1"
-architectures = ["armhf", "arm64", "amd64", "i386"]
+architectures = ["armhf", "arm64", "amd64"]
 multi_instance = true
 
 ldap = false
@@ -52,14 +52,14 @@ ram.runtime = "100M"
     arm64.sha256 = "823dd22e470fa814a28156599ff5eaa2aaddfff987c555790c61bd4332fffb67"
     amd64.url = "https://github.com/Radarr/Radarr/releases/download/v5.28.0.10274/Radarr.master.5.28.0.10274.linux-core-x64.tar.gz"
     amd64.sha256 = "4f19773b30d71063999ea53ea923994089448c391c2346d26eb54e77bb82d734"
-    i386.url = "https://github.com/Radarr/Radarr/releases/download/v5.28.0.10274/Radarr.master.5.28.0.10274.linux-core-x86.tar.gz"
-    i386.sha256 = "5f7b5938e8ff7bb56b852f9c47bff43480808102a51746168cfed03f635aa35e"
+    #i386.url = "https://github.com/Radarr/Radarr/releases/download/v5.28.0.10274/Radarr.master.5.28.0.10274.linux-core-x86.tar.gz"
+    #i386.sha256 = "5f7b5938e8ff7bb56b852f9c47bff43480808102a51746168cfed03f635aa35e"
 
     autoupdate.strategy = "latest_github_release"
     autoupdate.asset.armhf = ".*linux-core-arm.tar.gz"
     autoupdate.asset.arm64 = ".*linux-core-arm64.tar.gz"
     autoupdate.asset.amd64 = ".*linux-core-x64.tar.gz"
-    autoupdate.asset.i386 = ".*linux-core-x86.tar.gz"
+    #autoupdate.asset.i386 = ".*linux-core-x86.tar.gz"
 
     [resources.system_user]
 
