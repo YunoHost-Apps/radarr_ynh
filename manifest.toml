@@ -19,7 +19,7 @@ code = "https://github.com/Radarr/Radarr"
 fund = "https://radarr.video/donate"
 
 [integration]
-yunohost = ">= 12.1.17"
+yunohost = ">= 12.1.38"
 helpers_version = "2.1"
 architectures = ["armhf", "arm64", "amd64"]
 multi_instance = true
