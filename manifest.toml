@@ -7,7 +7,7 @@ name = "Radarr"
 description.en = "Movie collection manager for Usenet and BitTorrent users"
 description.fr = "Gestionnaire de filmothèque pour utilisateurs de Usenet et BitTorrent"
 
-version = "6.1.1.10360~ynh1"
+version = "6.2.1.10461~ynh1"
 
 maintainers = ["tituspijean"]
 
@@ -46,12 +46,12 @@ ram.runtime = "100M"
 
 [resources]
     [resources.sources.main]
-    armhf.url = "https://github.com/Radarr/Radarr/releases/download/v6.1.1.10360/Radarr.master.6.1.1.10360.linux-core-arm.tar.gz"
-    armhf.sha256 = "17056d5ced7bcfe1ec24b7cd5dd4a6c926070210af695c2af678b97b70ee71f8"
-    arm64.url = "https://github.com/Radarr/Radarr/releases/download/v6.1.1.10360/Radarr.master.6.1.1.10360.linux-core-arm64.tar.gz"
-    arm64.sha256 = "0ba308e17b41d2df9cd5dd3bf951668df86680cc966091b2686087522245bfac"
-    amd64.url = "https://github.com/Radarr/Radarr/releases/download/v6.1.1.10360/Radarr.master.6.1.1.10360.linux-core-x64.tar.gz"
-    amd64.sha256 = "3915f4f875206e650856999fe34308c64636a88de6dafccade2d1763264d77dd"
+    armhf.url = "https://github.com/Radarr/Radarr/releases/download/v6.2.1.10461/Radarr.master.6.2.1.10461.linux-core-arm.tar.gz"
+    armhf.sha256 = "f766d9ff8c7ed3745130c023241a474e8f7c3d6d56c5acab1be5d1a652e66506"
+    arm64.url = "https://github.com/Radarr/Radarr/releases/download/v6.2.1.10461/Radarr.master.6.2.1.10461.linux-core-arm64.tar.gz"
+    arm64.sha256 = "cd12a9ce00d35fc27213a751f4d18a494ed3038c1c90ed733330e46713f93788"
+    amd64.url = "https://github.com/Radarr/Radarr/releases/download/v6.2.1.10461/Radarr.master.6.2.1.10461.linux-core-x64.tar.gz"
+    amd64.sha256 = "4cae05c28b418d17d3f4cb9bc9ddc9d3f536122a9237d67aecd7afb751e52f7e"
     #i386.url = "https://github.com/Radarr/Radarr/releases/download/v5.28.0.10274/Radarr.master.5.28.0.10274.linux-core-x86.tar.gz"
     #i386.sha256 = "5f7b5938e8ff7bb56b852f9c47bff43480808102a51746168cfed03f635aa35e"
 
